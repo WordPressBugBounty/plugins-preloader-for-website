@@ -16,9 +16,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.0.0
  */
 function plwao_default_settings() {
-	
+
 	global $plwao_options;
-	
+
 	$plwao_options = array(
 
 		// Genaral
@@ -30,9 +30,9 @@ function plwao_default_settings() {
 		'plwao_bgcolor'		=> '#ffffff',
 		'custom_content'	=> '',
 	);
-	
+
 	$default_options = apply_filters('plwao_options_default_values', $plwao_options );
-	
+
 	// Update default options
 	update_option( 'plwao_options', $default_options );
 
@@ -47,12 +47,12 @@ function plwao_default_settings() {
  * @since 1.0.0
  */
 function plwao_get_option( $key = '', $default = false ) {
-	
+
 	global $plwao_options;
 
 	$value = ! empty( $plwao_options[ $key ] ) ? $plwao_options[ $key ] : $default;
 	$value = apply_filters( 'plwao_get_option', $value, $key, $default );
-	
+
 	return apply_filters( 'plwao_get_option_' . $key, $value, $key, $default );
 }
 
@@ -64,10 +64,10 @@ function plwao_get_option( $key = '', $default = false ) {
  * @since 1.0.0
  */
 function plwao_get_settings() {
-  
-	$options    = get_option('plwao_options');
-	$settings   = is_array( $options ) ? $options : array();
-	
+
+	$options	= get_option('plwao_options');
+	$settings	= is_array( $options ) ? $options : array();
+
 	return $settings;
 }
 
@@ -217,11 +217,11 @@ function plwao_img_size_opts() {
  */
 function plwao_img_repeat_opts() {
 
-	$img_repeat_opts = array(	
-							'no-repeat' => esc_html__('No Repeat', 'preloader-for-website'),
-							'repeat' 	=> esc_html__('Repeat', 'preloader-for-website'),
-							'repeat-x' 	=> esc_html__('Repeat X', 'preloader-for-website'),
-							'repeat-y' 	=> esc_html__('Repeat Y', 'preloader-for-website'),
+	$img_repeat_opts = array(
+							'no-repeat'	=> esc_html__('No Repeat', 'preloader-for-website'),
+							'repeat'	=> esc_html__('Repeat', 'preloader-for-website'),
+							'repeat-x'	=> esc_html__('Repeat X', 'preloader-for-website'),
+							'repeat-y'	=> esc_html__('Repeat Y', 'preloader-for-website'),
 						);
 
 	return apply_filters('plwao_img_repeat_opts', $img_repeat_opts );

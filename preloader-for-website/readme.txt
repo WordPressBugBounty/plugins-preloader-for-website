@@ -1,9 +1,9 @@
 ﻿=== Preloader for Website ===
 Contributors: wponlinesupport, anoopranawat, pratik-jain, patelketan,
-Tags: page loader, loader, page load animations, animated preloader, colorful, customize, Jquery Loader, jquery pre-loader, jquery preloader, load, loader, pre-loader, preload, preloader 
+Tags: page loader, page load animations, animated preloader, jquery pre-loader, jquery preloader
 Requires at least: 4.0
-Tested up to: 6.4.1
-Stable tag: trunk
+Tested up to: 6.7
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,9 @@ It works everywhere. It’s been tested on desktop browsers along with a variety
 
 
 == Changelog ==
+
+= 1.3.1 (11, Nov 2024) =
+* [*] Check compatibility to WordPress version 6.7
 
 = 1.3 (21, Nov 2023) =
 * [*] Update - Added nonce security to plugin reset setting.

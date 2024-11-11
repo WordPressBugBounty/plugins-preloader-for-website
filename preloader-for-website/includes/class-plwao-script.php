@@ -19,7 +19,7 @@ class Plwao_Script {
 		// Action to add style & script in backend
 		add_action( 'admin_enqueue_scripts', array($this, 'plwao_admin_style_script') );
 
- 		// Action to add style & script in front
+		// Action to add style & script in front
 		add_action( 'wp_enqueue_scripts', array( $this, 'plwao_front_style_script') );
 	}
 
