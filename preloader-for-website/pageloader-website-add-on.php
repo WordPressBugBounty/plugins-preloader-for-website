@@ -5,10 +5,10 @@
  * Text Domain: preloader-for-website
  * Domain Path: /languages/
  * Description: Preloader for Website : A loading screen add-on for your WordPress website.
- * Version: 1.3.1
- * Author: WP OnlineSupport, Essential Plugin
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/preloader-for-website/
- * Contributors: WP OnlineSupport
+ * Version: 1.3.2
+ * Author: Essential Plugin
+ * Author URI: https://www.essentialplugin.com
+ * Contributors: Essential Plugin
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'PLWAO_VERSION' ) ) {
-	define( 'PLWAO_VERSION', '1.3.1' ); // Version of plugin
+	define( 'PLWAO_VERSION', '1.3.2' ); // Version of plugin
 }
 
 if( ! defined( 'PLWAO_DIR' ) ) {

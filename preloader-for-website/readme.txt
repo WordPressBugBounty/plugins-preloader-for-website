@@ -1,9 +1,9 @@
 ﻿=== Preloader for Website ===
-Contributors: wponlinesupport, anoopranawat, pratik-jain, patelketan,
+Contributors: essentialplugin
 Tags: page loader, page load animations, animated preloader, jquery pre-loader, jquery preloader
 Requires at least: 4.0
-Tested up to: 6.7
-Stable tag: 1.3.1
+Tested up to: 6.8.1
+Stable tag: 1.3.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,9 @@ It works everywhere. It’s been tested on desktop browsers along with a variety
 
 
 == Changelog ==
+
+= 1.3.2 (15, May 2025) =
+* [*] Check compatibility with WordPress version 6.8.1
 
 = 1.3.1 (11, Nov 2024) =
 * [*] Check compatibility to WordPress version 6.7

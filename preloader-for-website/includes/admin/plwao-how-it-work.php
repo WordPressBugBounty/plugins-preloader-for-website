@@ -97,7 +97,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 									</ul>
 
 									<p><a class="button button-primary wpos-button-full" href="<?php echo esc_url(PAOC_SITE_LINK); ?>/pricing/?utm_source=WP&utm_medium=Preloader&utm_campaign=How-It-Work" target="_blank"><?php esc_html_e('Grab Now ', 'preloader-for-website'); ?></a></p>
-									<p><a class="button button-primary wpos-button-full" href="https://demo.wponlinesupport.com/prodemo/preloader-for-website-demo/?utm_source=WP&utm_medium=Preloader&utm_campaign=PRO-Demo" target="_blank"><?php esc_html_e('View PRO Demo ', 'preloader-for-website'); ?></a></p> 
+									<p><a class="button button-primary wpos-button-full" href="https://demo.essentialplugin.com/prodemo/preloader-for-website-demo/?utm_source=WP&utm_medium=Preloader&utm_campaign=PRO-Demo" target="_blank"><?php esc_html_e('View PRO Demo ', 'preloader-for-website'); ?></a></p> 
 								</div><!-- .inside -->
 							</div>
 						</div>
